@@ -35,6 +35,6 @@ export default {
     .input {
         width: 100%;
         padding: 8px 10px;
-        border: 1px solid #32485F;
+        border: 2px solid #32485F;
     }
 </style>
