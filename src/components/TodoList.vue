@@ -74,4 +74,9 @@ export default {
 	li {
 		list-style-type: none;
 	}
+
+	p {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 20px;
+	}
 </style>

@@ -1,7 +1,7 @@
 <template>
   <li>
     {{ todo.text }}
-    <button 
+    <button class="remove-button"
     @click="$emit('remove', todo.id)">
       X
     </button>
@@ -20,5 +20,10 @@ export default {
 </script>
 
 <style scoped>
-  
+  .remove-button {
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: red
+  }
 </style>

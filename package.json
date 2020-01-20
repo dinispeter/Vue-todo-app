@@ -10,7 +10,8 @@
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.1",
     "style-loader": "^1.1.2",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-cli-plugin-style-resources-loader": "^0.1.4"
   },
   "devDependencies": {
     "@vue/cli-service": "^4.1.0",

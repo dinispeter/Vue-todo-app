@@ -27,7 +27,7 @@ export default {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
- 
+
 h1 {
 	color: #006699;
 	text-align: center;
