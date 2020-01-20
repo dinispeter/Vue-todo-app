@@ -5,6 +5,7 @@
         placeholder="New todo"
         @keydown.enter="addTodo"
     />
+	<br />
 
     <ul v-if="todos.length">
 			<TodoListItem
@@ -70,5 +71,12 @@ export default {
 </script>
 
 <style>
+	li {
+		list-style-type: none;
+	}
 
+	p {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 20px;
+	}
 </style>
